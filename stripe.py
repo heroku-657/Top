@@ -131,7 +131,7 @@ def check_card(card_details, username_tg, session):
         'guid': random_string(32),
         'muid': random_string(32),
         'sid': random_string(32),
-        'payment_user_agent': 'stripe.js/91c61095e7; stripe-js-v3/91c61095e7; split-card-element',
+        'payment_user_agent': 'stripe.js/d476c1dc26; stripe-js-v3/d476c1dc26; split-card-element',
         'referrer': 'https://handtoolessentials.com',
         'time_on_page': '34062',
         'key': 'pk_live_5ZSl1RXFaQ9bCbELMfLZxCsG'
