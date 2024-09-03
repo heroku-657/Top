@@ -293,7 +293,7 @@ async def handle_file(event):
                 await event.respond("🛑 Card checking process stopped as per your request.")
                 break
             
-            response, site_status = check_card(card, username_tg, session)
+            response, site_status, additional_value = check_card(card, username_tg, session)
 
             if "Approved" in response:
                 approved.append(response)
